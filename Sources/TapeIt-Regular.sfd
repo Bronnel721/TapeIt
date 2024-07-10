@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1716784568
-ModificationTime: 1720581404
+ModificationTime: 1720581513
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -78,7 +78,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 256 71
+BeginChars: 256 73
 
 StartChar: I
 Encoding: 73 73 0
@@ -2024,8 +2024,8 @@ LayerCount: 2
 Fore
 SplineSet
 40 233 m 5xd0
- 40 731.0078125 l 1
- 176 731.0078125 l 1
+ 40 731.0078125 l 5
+ 176 731.0078125 l 5
  176 233 l 5
  40 233 l 5xd0
 EndSplineSet
@@ -2101,6 +2101,45 @@ SplineSet
  425.0078125 328 l 1
  25 328 l 1
  25 447 l 1
+EndSplineSet
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 71
+Width: 206
+Flags: W
+HStem: 463 268.008<40 166>
+VStem: 40 126<463 731.008>
+LayerCount: 2
+Fore
+SplineSet
+40 463 m 1
+ 40 731.0078125 l 1
+ 166 731.0078125 l 5
+ 166 463 l 5
+ 40 463 l 1
+EndSplineSet
+EndChar
+
+StartChar: quotedbl
+Encoding: 34 34 72
+Width: 385
+Flags: W
+HStem: 454.88 283.245
+VStem: 35 125.924<533.933 733.728> 44.3535 125.924<465.28 665.075> 215.175 125.923<459.277 663.095> 224.18 125.923<518.913 722.73>
+LayerCount: 2
+Fore
+SplineSet
+215.174804688 459.27734375 m 1x90
+ 224.1796875 727.127929688 l 1
+ 350.102539062 722.73046875 l 1x88
+ 341.09765625 454.879882812 l 1
+ 215.174804688 459.27734375 l 1x90
+44.353515625 460.8828125 m 1xa0
+ 35 733.727539062 l 1
+ 160.923828125 738.125 l 1xc0
+ 170.27734375 465.280273438 l 1
+ 44.353515625 460.8828125 l 1xa0
 EndSplineSet
 EndChar
 EndChars

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1716784568
-ModificationTime: 1720589984
+ModificationTime: 1720590355
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -78,7 +78,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 256 82
+BeginChars: 256 83
 
 StartChar: I
 Encoding: 73 73 0
@@ -431,6 +431,7 @@ SplineSet
  503.508789062 306.58984375 l 1
  367.591796875 303.84375 l 1xb2
 EndSplineSet
+Kerns2: 36 -40 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: N
@@ -616,7 +617,7 @@ SplineSet
  316.3515625 0 l 1
  180.3515625 0 l 1
 EndSplineSet
-Kerns2: 23 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 44 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 27 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 32 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 36 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 23 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: W
@@ -854,7 +855,7 @@ SplineSet
  329.797851562 262.514648438 l 5
  213 239 l 5
 EndSplineSet
-Kerns2: 23 -90 "'kern' Horizontal Kerning in Latin lookup 0-1"
+Kerns2: 44 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 41 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 42 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 46 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 27 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 32 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 36 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 23 -90 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: o
@@ -887,6 +888,7 @@ SplineSet
  448.138671875 53.896484375 l 1
  323.221679688 56.642578125 l 1xbc
 EndSplineSet
+Kerns2: 26 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: p
@@ -1047,6 +1049,7 @@ SplineSet
  35 452.4921875 l 1
  160.916992188 457.23828125 l 1x8a
 EndSplineSet
+Kerns2: 26 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: l
@@ -1170,6 +1173,7 @@ SplineSet
  472.401367188 -13 l 5
  325.6640625 14.8369140625 l 5
 EndSplineSet
+Kerns2: 26 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: g
@@ -1315,6 +1319,7 @@ SplineSet
  461.407226562 0.58984375 l 1
  333.490234375 -2.15625 l 1
 EndSplineSet
+Kerns2: 26 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: m
@@ -1351,6 +1356,7 @@ SplineSet
  435.801757812 -0.5849609375 l 1
  307.856445312 -1.0986328125 l 1
 EndSplineSet
+Kerns2: 26 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: q
@@ -1405,6 +1411,7 @@ SplineSet
  166 0 l 5
  40 0 l 5
 EndSplineSet
+Kerns2: 26 -80 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -110 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: t
@@ -1459,6 +1466,7 @@ SplineSet
  43.1708984375 521.59375 l 1
  171.10546875 519.874023438 l 1
 EndSplineSet
+Kerns2: 26 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -100 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: v
@@ -2134,16 +2142,16 @@ VStem: 165.504 119<187.496 587.504>
 LayerCount: 2
 Fore
 SplineSet
-165.50390625 187.49609375 m 5
- 165.50390625 587.50390625 l 5
- 284.50390625 587.50390625 l 5
- 284.50390625 187.49609375 l 5
- 165.50390625 187.49609375 l 5
-25 447 m 1
- 425.0078125 447 l 1
- 425.0078125 328 l 1
- 25 328 l 1
- 25 447 l 1
+165.50390625 187.49609375 m 1
+ 165.50390625 587.50390625 l 1
+ 284.50390625 587.50390625 l 1
+ 284.50390625 187.49609375 l 1
+ 165.50390625 187.49609375 l 1
+25 447 m 5
+ 425.0078125 447 l 5
+ 425.0078125 328 l 5
+ 25 328 l 5
+ 25 447 l 5
 EndSplineSet
 EndChar
 
@@ -2394,6 +2402,27 @@ SplineSet
  566.0078125 -109 l 5
  25 -109 l 5
  25 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: equal
+Encoding: 61 61 82
+Width: 450
+Flags: W
+HStem: 228 119<25 425.008> 428 119<25 425.008>
+LayerCount: 2
+Fore
+SplineSet
+25 347 m 1
+ 425.0078125 347 l 1
+ 425.0078125 228 l 1
+ 25 228 l 1
+ 25 347 l 1
+25 547 m 5
+ 425.0078125 547 l 5
+ 425.0078125 428 l 5
+ 25 428 l 5
+ 25 547 l 5
 EndSplineSet
 EndChar
 EndChars

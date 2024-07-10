@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1716784568
-ModificationTime: 1720580798
+ModificationTime: 1720581271
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,6 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -77,7 +78,7 @@ Grid
  2000 731.007568359 l 1024
   Named: "Cap Height"
 EndSplineSet
-BeginChars: 256 67
+BeginChars: 256 69
 
 StartChar: I
 Encoding: 73 73 0
@@ -126,6 +127,7 @@ SplineSet
  168.916992188 86.822265625 l 1x7a
  35 88.568359375 l 1
 EndSplineSet
+Kerns2: 18 -20 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: Q
@@ -177,6 +179,7 @@ SplineSet
  442.0078125 -5 l 1xb0
  35 3 l 1x70
 EndSplineSet
+Kerns2: 18 -136 "'kern' Horizontal Kerning in Latin lookup 0-1" 26 -143 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: F
@@ -373,28 +376,29 @@ EndChar
 
 StartChar: V
 Encoding: 86 86 11
-Width: 540
+Width: 550
 Flags: W
-HStem: 0 21G<144.197 405.142>
+HStem: 0 21G<149.197 410.142> 720.413 20G<10 143.708 402.999 540.338>
 LayerCount: 2
 Fore
 SplineSet
-148.168945312 0 m 1
- 145.168945312 134 l 1
- 404.426757812 134 l 1
- 401.426757812 0 l 1
- 148.168945312 0 l 1
-401.426757812 0 m 1
- 274.62890625 23.5146484375 l 1
- 401.540039062 740.413085938 l 1
- 535.337890625 720.8984375 l 1
- 401.426757812 0 l 1
-148.168945312 0 m 5
- 5 720.8984375 l 5
- 134.797851562 740.413085938 l 5
- 274.966796875 23.5146484375 l 5
- 148.168945312 0 l 5
+153.168945312 0 m 1
+ 150.168945312 134 l 1
+ 409.426757812 134 l 1
+ 406.426757812 0 l 1
+ 153.168945312 0 l 1
+406.426757812 0 m 1
+ 279.62890625 23.5146484375 l 1
+ 406.540039062 740.413085938 l 1
+ 540.337890625 720.8984375 l 1
+ 406.426757812 0 l 1
+153.168945312 0 m 5
+ 10 720.8984375 l 5
+ 139.797851562 740.413085938 l 5
+ 279.966796875 23.5146484375 l 5
+ 153.168945312 0 l 5
 EndSplineSet
+Kerns2: 23 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: P
@@ -612,52 +616,54 @@ SplineSet
  316.3515625 0 l 1
  180.3515625 0 l 1
 EndSplineSet
+Kerns2: 23 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: W
 Encoding: 87 87 19
-Width: 868
+Width: 878
 Flags: W
-HStem: 0 21G<144.197 395.441 484.525 733.142>
+HStem: 0 21G<149.197 400.441 489.525 738.142> 720.413 20G<10 143.708 730.999 868.338>
 LayerCount: 2
 Fore
 SplineSet
-491.177734375 497 m 5
- 391.426757812 0 l 1
- 274.62890625 23.5146484375 l 1
- 386.931640625 636 l 1
- 491.177734375 497 l 5
-488.168945312 0 m 1
- 485.168945312 134 l 1
- 732.426757812 134 l 1
- 729.426757812 0 l 1
- 488.168945312 0 l 1
-729.426757812 0 m 1
- 602.62890625 23.5146484375 l 1
- 729.540039062 740.413085938 l 1
- 863.337890625 720.8984375 l 1
- 729.426757812 0 l 1
-488.168945312 0 m 1
- 355 730.8984375 l 1
- 480.797851562 748.413085938 l 1
- 600.966796875 23.5146484375 l 1
- 488.168945312 0 l 1
-148.168945312 0 m 1
- 145.168945312 134 l 1
- 394.426757812 134 l 1
- 391.426757812 0 l 1
- 148.168945312 0 l 1
-148.168945312 0 m 1
- 5 720.8984375 l 1
- 134.797851562 740.413085938 l 1
- 274.966796875 23.5146484375 l 1
- 148.168945312 0 l 1
+496.177734375 497 m 5
+ 396.426757812 0 l 1
+ 279.62890625 23.5146484375 l 1
+ 391.931640625 636 l 1
+ 496.177734375 497 l 5
+493.168945312 0 m 1
+ 490.168945312 134 l 1
+ 737.426757812 134 l 1
+ 734.426757812 0 l 1
+ 493.168945312 0 l 1
+734.426757812 0 m 1
+ 607.62890625 23.5146484375 l 1
+ 734.540039062 740.413085938 l 1
+ 868.337890625 720.8984375 l 1
+ 734.426757812 0 l 1
+493.168945312 0 m 1
+ 360 730.8984375 l 1
+ 485.797851562 748.413085938 l 1
+ 605.966796875 23.5146484375 l 1
+ 493.168945312 0 l 1
+153.168945312 0 m 1
+ 150.168945312 134 l 1
+ 399.426757812 134 l 1
+ 396.426757812 0 l 1
+ 153.168945312 0 l 1
+153.168945312 0 m 1
+ 10 720.8984375 l 1
+ 139.797851562 740.413085938 l 1
+ 279.966796875 23.5146484375 l 1
+ 153.168945312 0 l 1
 EndSplineSet
+Kerns2: 23 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: K
 Encoding: 75 75 20
-Width: 536
+Width: 541
 Flags: W
 HStem: 0 21G<40 176> 711.008 20G<40 176>
 VStem: 40 136<0 192 329.485 731.008>
@@ -684,25 +690,25 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 21
-Width: 513
+Width: 524
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-130.797851562 -17 m 1
- 5 45.5146484375 l 1
- 220.064453125 430 l 1
- 385.797851562 744 l 1
- 509.595703125 685.485351562 l 1
- 306.045898438 318 l 1
- 130.797851562 -17 l 1
-383.797851562 -17 m 1
- 222.86328125 300 l 1
- 5 685.485351562 l 1
- 128.797851562 744 l 1
- 288.892578125 432 l 1
- 509.595703125 45.5146484375 l 1
- 383.797851562 -17 l 1
+135.797851562 -17 m 1
+ 10 45.5146484375 l 1
+ 225.064453125 430 l 1
+ 390.797851562 744 l 1
+ 514.595703125 685.485351562 l 1
+ 311.045898438 318 l 1
+ 135.797851562 -17 l 1
+388.797851562 -17 m 1
+ 227.86328125 300 l 1
+ 10 685.485351562 l 1
+ 133.797851562 744 l 1
+ 293.892578125 432 l 1
+ 514.595703125 45.5146484375 l 1
+ 388.797851562 -17 l 1
 EndSplineSet
 EndChar
 
@@ -734,33 +740,34 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 23
-Width: 540
+Width: 550
 Flags: W
-HStem: 173.57 124.918<104.41 422.754> 181.082 124.918<127.883 446.227> 711.008 20G<135.196 396.141>
+HStem: 173.57 124.918<109.41 427.754> 181.082 124.918<132.883 451.227> 711.008 20G<140.196 401.141>
 LayerCount: 2
 Fore
 SplineSet
-101.6640625 298.48828125 m 5xa0
- 446.2265625 306 l 5
- 448.97265625 181.08203125 l 5x60
- 104.41015625 173.5703125 l 5
- 101.6640625 298.48828125 l 5xa0
-392.168945312 731.0078125 m 1
- 395.168945312 597.0078125 l 1
- 135.911132812 597.0078125 l 1
- 138.911132812 731.0078125 l 1
- 392.168945312 731.0078125 l 1
-138.911132812 731.0078125 m 1
- 265.708984375 707.493164062 l 1
- 138.797851562 -9.4052734375 l 1
- 5 10.109375 l 1
- 138.911132812 731.0078125 l 1
-392.168945312 731.0078125 m 1
- 535.337890625 10.109375 l 1
- 405.540039062 -9.4052734375 l 1
- 265.37109375 707.493164062 l 1
- 392.168945312 731.0078125 l 1
+106.6640625 298.48828125 m 5xa0
+ 451.2265625 306 l 5
+ 453.97265625 181.08203125 l 5x60
+ 109.41015625 173.5703125 l 5
+ 106.6640625 298.48828125 l 5xa0
+397.168945312 731.0078125 m 1
+ 400.168945312 597.0078125 l 1
+ 140.911132812 597.0078125 l 1
+ 143.911132812 731.0078125 l 1
+ 397.168945312 731.0078125 l 1
+143.911132812 731.0078125 m 1
+ 270.708984375 707.493164062 l 1
+ 143.797851562 -9.4052734375 l 1
+ 10 10.109375 l 1
+ 143.911132812 731.0078125 l 1
+397.168945312 731.0078125 m 1
+ 540.337890625 10.109375 l 1
+ 410.540039062 -9.4052734375 l 1
+ 270.37109375 707.493164062 l 1
+ 397.168945312 731.0078125 l 1
 EndSplineSet
+Kerns2: 26 -100 "'kern' Horizontal Kerning in Latin lookup 0-1" 18 -90 "'kern' Horizontal Kerning in Latin lookup 0-1" 19 -70 "'kern' Horizontal Kerning in Latin lookup 0-1" 11 -70 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: i
@@ -824,29 +831,30 @@ EndChar
 
 StartChar: Y
 Encoding: 89 89 26
-Width: 520
+Width: 530
 Flags: W
-HStem: 0 21G<190 326>
-VStem: 190 136<0 331.008>
+HStem: 0 21G<195 331> 720.413 20G<80.4116 138.168 388.433 447.575>
+VStem: 195 136<0 331.008>
 LayerCount: 2
 Fore
 SplineSet
-190 0 m 5
- 190 331.0078125 l 5
- 326 331.0078125 l 5
- 326 0 l 5
- 190 0 l 5
-315.426757812 241 m 5
- 198.62890625 264.514648438 l 5
- 391.540039062 740.413085938 l 5
- 515.337890625 691.8984375 l 5
- 315.426757812 241 l 5
-208 239 m 5
- 5 691.8984375 l 1
- 124.797851562 740.413085938 l 1
- 324.797851562 262.514648438 l 5
- 208 239 l 5
+195 0 m 5
+ 195 331.0078125 l 5
+ 331 331.0078125 l 5
+ 331 0 l 5
+ 195 0 l 5
+320.426757812 241 m 5
+ 203.62890625 264.514648438 l 5
+ 396.540039062 740.413085938 l 5
+ 520.337890625 691.8984375 l 5
+ 320.426757812 241 l 5
+213 239 m 5
+ 10 691.8984375 l 1
+ 129.797851562 740.413085938 l 1
+ 329.797851562 262.514648438 l 5
+ 213 239 l 5
 EndSplineSet
+Kerns2: 23 -90 "'kern' Horizontal Kerning in Latin lookup 0-1"
 EndChar
 
 StartChar: o
@@ -1257,7 +1265,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 40
-Width: 456
+Width: 461
 Flags: W
 HStem: 0 21G<40 166> 721.002 20G<40 166>
 VStem: 40 126<0 139 225.182 741.002>
@@ -1455,124 +1463,124 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 47
-Width: 480
+Width: 490
 Flags: W
-HStem: 0 21G<116.527 359.258> 509.011 20G<41.9668 133.357 342.951 437.177>
+HStem: 0 21G<121.527 364.258> 509.011 20G<46.9668 138.357 347.951 442.177>
 LayerCount: 2
 Fore
 SplineSet
-121.168945312 0 m 1
- 118.168945312 134 l 1
- 357.426757812 134 l 1
- 354.426757812 0 l 1
- 121.168945312 0 l 1
-354.426757812 0 m 1
- 233.62890625 32.5146484375 l 1
- 347.540039062 529.010742188 l 5
- 475.337890625 500.49609375 l 5
- 354.426757812 0 l 1
-121.168945312 0 m 1
- 5 500.49609375 l 5
- 128.797851562 529.010742188 l 5
- 241.966796875 32.5146484375 l 1
- 121.168945312 0 l 1
+126.168945312 0 m 1
+ 123.168945312 134 l 1
+ 362.426757812 134 l 1
+ 359.426757812 0 l 1
+ 126.168945312 0 l 1
+359.426757812 0 m 1
+ 238.62890625 32.5146484375 l 1
+ 352.540039062 529.010742188 l 5
+ 480.337890625 500.49609375 l 5
+ 359.426757812 0 l 1
+126.168945312 0 m 1
+ 10 500.49609375 l 5
+ 133.797851562 529.010742188 l 5
+ 246.966796875 32.5146484375 l 1
+ 126.168945312 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: w
 Encoding: 119 119 48
-Width: 750
+Width: 760
 Flags: W
-HStem: 0 21G<116.527 329.695 415.442 629.258> 509.011 20G<41.9668 133.357 306.4 407.919 612.951 707.177>
+HStem: 0 21G<121.527 334.695 420.442 634.258> 509.011 20G<46.9668 138.357 311.4 412.919 617.951 712.177>
 LayerCount: 2
 Fore
 SplineSet
-421.168945312 0 m 1
- 418.168945312 134 l 1
- 627.426757812 134 l 1
- 624.426757812 0 l 1
- 421.168945312 0 l 1
-624.426757812 0 m 1
- 503.62890625 32.5146484375 l 1
- 617.540039062 529.010742188 l 1
- 745.337890625 500.49609375 l 1
- 624.426757812 0 l 1
-421.168945312 0 m 1
- 275 510.49609375 l 1
- 402.797851562 537.010742188 l 1
- 531.966796875 32.5146484375 l 1
- 421.168945312 0 l 1
-121.168945312 0 m 1
- 118.168945312 134 l 1
- 327.426757812 134 l 1
- 324.426757812 0 l 1
- 121.168945312 0 l 1
-324.426757812 0 m 1
- 213.62890625 32.5146484375 l 1
- 321.202148438 419.514648438 l 1
- 419 359 l 1
- 324.426757812 0 l 1
-121.168945312 0 m 1
- 5 500.49609375 l 1
- 128.797851562 529.010742188 l 1
- 241.966796875 32.5146484375 l 1
- 121.168945312 0 l 1
+426.168945312 0 m 1
+ 423.168945312 134 l 1
+ 632.426757812 134 l 1
+ 629.426757812 0 l 1
+ 426.168945312 0 l 1
+629.426757812 0 m 1
+ 508.62890625 32.5146484375 l 1
+ 622.540039062 529.010742188 l 1
+ 750.337890625 500.49609375 l 1
+ 629.426757812 0 l 1
+426.168945312 0 m 1
+ 280 510.49609375 l 1
+ 407.797851562 537.010742188 l 1
+ 536.966796875 32.5146484375 l 1
+ 426.168945312 0 l 1
+126.168945312 0 m 1
+ 123.168945312 134 l 1
+ 332.426757812 134 l 1
+ 329.426757812 0 l 1
+ 126.168945312 0 l 1
+329.426757812 0 m 1
+ 218.62890625 32.5146484375 l 1
+ 326.202148438 419.514648438 l 1
+ 424 359 l 1
+ 329.426757812 0 l 1
+126.168945312 0 m 1
+ 10 500.49609375 l 1
+ 133.797851562 529.010742188 l 1
+ 246.966796875 32.5146484375 l 1
+ 126.168945312 0 l 1
 EndSplineSet
 EndChar
 
 StartChar: x
 Encoding: 120 120 49
-Width: 444
+Width: 448
 Flags: W
-HStem: 510.934 20G<85.3904 133.776 317.7 366.191>
+HStem: 510.934 20G<84.3904 132.776 316.7 365.191>
 LayerCount: 2
 Fore
 SplineSet
-122.927734375 -17 m 1
- 11 48.5146484375 l 1
- 193.8046875 320 l 1
- 330.677734375 530.93359375 l 1
- 439.90625 469.418945312 l 5
- 266.888671875 208 l 1
- 122.927734375 -17 l 1
-328.978515625 -17 m 1
- 196.18359375 190 l 1
- 11 469.418945312 l 5
- 121.228515625 530.93359375 l 1
- 252.30859375 322 l 1
- 439.90625 48.5146484375 l 1
- 328.978515625 -17 l 1
+121.927734375 -17 m 1
+ 10 48.5146484375 l 1
+ 192.8046875 320 l 1
+ 329.677734375 530.93359375 l 1
+ 438.90625 469.418945312 l 5
+ 265.888671875 208 l 1
+ 121.927734375 -17 l 1
+327.978515625 -17 m 1
+ 195.18359375 190 l 1
+ 10 469.418945312 l 5
+ 120.228515625 530.93359375 l 1
+ 251.30859375 322 l 1
+ 438.90625 48.5146484375 l 1
+ 327.978515625 -17 l 1
 EndSplineSet
 EndChar
 
 StartChar: y
 Encoding: 121 121 50
-Width: 480
+Width: 490
 Flags: W
-HStem: -182.841 120.432<101.994 295.548> 60 134<241.967 354.427> 509.011 20G<41.9668 133.983 342.792 437.177>
+HStem: -182.841 120.432<106.994 300.548> 60 134<246.967 359.427> 509.011 20G<46.9668 138.983 347.792 442.177>
 LayerCount: 2
 Fore
 SplineSet
-101.994140625 -182.840820312 m 5
- 95.0859375 -62.4091796875 l 5
- 310.286132812 -54.89453125 l 5
- 311.797851562 -175.514648438 l 5
- 101.994140625 -182.840820312 l 5
-121.168945312 60 m 1
- 118.168945312 194 l 1
- 357.426757812 194 l 1
- 354.426757812 60 l 1
- 121.168945312 60 l 1
-311.797851562 -175.514648438 m 5
- 188 -143 l 5
- 347.540039062 529.010742188 l 1
- 475.337890625 500.49609375 l 1
- 311.797851562 -175.514648438 l 5
-121.168945312 60 m 1
- 5 500.49609375 l 1
- 128.797851562 529.010742188 l 1
- 241.966796875 92.5146484375 l 1
- 121.168945312 60 l 1
+106.994140625 -182.840820312 m 5
+ 100.0859375 -62.4091796875 l 5
+ 315.286132812 -54.89453125 l 5
+ 316.797851562 -175.514648438 l 5
+ 106.994140625 -182.840820312 l 5
+126.168945312 60 m 1
+ 123.168945312 194 l 1
+ 362.426757812 194 l 1
+ 359.426757812 60 l 1
+ 126.168945312 60 l 1
+316.797851562 -175.514648438 m 5
+ 193 -143 l 5
+ 352.540039062 529.010742188 l 1
+ 480.337890625 500.49609375 l 1
+ 316.797851562 -175.514648438 l 5
+126.168945312 60 m 1
+ 10 500.49609375 l 1
+ 133.797851562 529.010742188 l 1
+ 246.966796875 92.5146484375 l 1
+ 126.168945312 60 l 1
 EndSplineSet
 EndChar
 
@@ -1982,15 +1990,15 @@ Encoding: 44 44 65
 Width: 196
 Flags: W
 HStem: -133.758 308.523
-VStem: -27.2695 218.27
+VStem: -32.2695 218.27
 LayerCount: 2
 Fore
 SplineSet
--27.26953125 -89.294921875 m 5
- 68.8408203125 174.765625 l 5
- 191 130.302734375 l 5
- 94.8896484375 -133.7578125 l 5
- -27.26953125 -89.294921875 l 5
+-32.26953125 -89.294921875 m 5
+ 63.8408203125 174.765625 l 5
+ 186 130.302734375 l 5
+ 89.8896484375 -133.7578125 l 5
+ -32.26953125 -89.294921875 l 5
 EndSplineSet
 EndChar
 
@@ -1999,11 +2007,62 @@ Encoding: 59 59 66
 Width: 230
 Flags: W
 HStem: -133.758 308.523 360 161.008<40 190>
-VStem: -27.2695 218.27 40 150<360 521.008>
+VStem: -32.2695 218.27 40 150<360 521.008>
 LayerCount: 2
 Fore
 Refer: 65 44 S 1 0 0 1 0 0 2
 Refer: 63 46 N 1 0 0 1 0 360 2
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 67
+Width: 216
+Flags: W
+HStem: 0 161.008<33 183> 711.008 20G<40 176>
+VStem: 33 150<0 161.008> 40 136<233 731.008>
+LayerCount: 2
+Fore
+SplineSet
+40 233 m 5xd0
+ 40 731.0078125 l 1
+ 176 731.0078125 l 1
+ 176 233 l 5
+ 40 233 l 5xd0
+EndSplineSet
+Refer: 63 46 N 1 0 0 1 -7 0 2
+EndChar
+
+StartChar: question
+Encoding: 63 63 68
+Width: 495
+Flags: W
+HStem: 0 161.008<123 273> 230.686 201.314<133 262.927> 311.082 60.293<133.622 263.316> 377.553 62.9355<334.747 408.931> 603.57 55.0332<332.581 401.185> 611.082 124.918<69.3682 378.393>
+VStem: 123 150<0 161.008> 133 129.927<230.686 311.082> 332.581 68.6035<603.57 658.604>
+LayerCount: 2
+Fore
+SplineSet
+133.372070312 371.375 m 1xa180
+ 263.31640625 371.001953125 l 1
+ 262.926757812 230.685546875 l 1xc180
+ 133 230.059570312 l 1
+ 133.372070312 371.375 l 1xa180
+133.622070312 311.08203125 m 1xb080
+ 131.368164062 432 l 1xc080
+ 408.930664062 440.48828125 l 1
+ 411.184570312 319.5703125 l 1
+ 133.622070312 311.08203125 l 1xb080
+403.930664062 728.48828125 m 1
+ 401.184570312 603.5703125 l 1x8880
+ 66.6220703125 611.08203125 l 1
+ 69.3681640625 736 l 1x8480
+ 403.930664062 728.48828125 l 1
+470.663085938 377.552734375 m 1x9880
+ 334.747070312 374.809570312 l 1
+ 332.581054688 658.603515625 l 1
+ 468.497070312 661.346679688 l 1
+ 470.663085938 377.552734375 l 1x9880
+EndSplineSet
+Refer: 63 46 N 1 0 0 1 83 0 2
 EndChar
 EndChars
 EndSplineFont
